@@ -1,0 +1,14 @@
+#serviceBodyC, #serviceBodyD {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+}
+
+#serviceBodyC, #serviceBodyD {
+    border: 1px solid black;
+}
+
+
+#serviceBodyC {
+    order: -1; 
+}
