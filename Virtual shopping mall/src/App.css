@@ -1,0 +1,33 @@
+.div {
+    border: 2px solid red;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+    background-color: lightyellow;
+  padding: 8px;
+  border-radius: 4px;
+  }
+
+  .hint{
+    font-size: 25px;
+    color: red;
+  }
+  .div button {
+    font-size: 16px;
+    padding: 10px 20px; 
+    border-radius: 4px;
+  }
+  .div:focus {
+    outline: none; 
+    border-color: #007bff; 
+  }
+  .div input {
+    width: 100%; /* 设置输入框宽度占满父元素 */
+    padding: 12px; /* 设置输入框内边距 */
+    font-size: 16px; /* 设置输入框字体大小 */
+    border: 2px solid #ccc; /* 设置输入框边框 */
+    border-radius: 4px; /* 设置输入框边框圆角 */
+    box-sizing: border-box; /* 让 padding 不会撑大输入框 */
+  }
+  
