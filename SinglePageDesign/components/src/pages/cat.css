@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    display: flex;             
+    justify-content: center;   
+    align-items: center; 
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 20px; 
+    font-size: 16px;
+}
+
+header{
+    align-items: center; 
+    padding: 10px;
+    background-color: lightcoral; 
+}
+
+.logo-title {
+    display: flex; 
+    align-items: center; 
+}
+
+.logo{
+    width: 100px; 
+    height: 100px; 
+}
+
+.mobile-menu{
+    padding: 10px 20px; 
+    background-color: papayawhip; 
+    text-align: center;
+    text-decoration: none; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 60px;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+
+nav ul li{
+    padding: 20px;
+    
+}
+
+main{
+    text-align: center;
+}
+
+.section-one{
+    padding: 20px;              
+    border: 2px solid lightcoral;      
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    margin: 0.5rem;
+
+}
+
+.section-two{
+    padding: 20px;              
+    border: 2px solid lightcoral;      
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    margin: 0.5rem;
+
+}
+
+.section-three{
+    padding: 20px;              
+    border: 2px solid lightcoral;      
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    margin: 0.5rem;
+
+}
+
+.section-four{
+    padding: 20px;              
+    border: 2px solid lightcoral;      
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    margin: 0.5rem;
+
+}
+
+.section-five{
+    padding: 20px;              
+    border: 2px solid lightcoral;      
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    margin: 0.5rem;
+
+}
+
+.section-six{
+    padding: 20px;              
+    border: 2px solid lightcoral;      
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    margin: 0.5rem;
+}
+
+footer{
+    display: flex;
+    align-items: center; 
+    padding: 40px;
+    background-color: lightcoral; 
+}
+
+.subscribe-button{
+    bottom: 20px; 
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: papayawhip; 
+    text-align: center;
+    text-decoration: none; 
+    font-size: 16px; 
+    border-radius: 5px;  
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);         
+}
+
+.modal {
+   
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.btn-link {
+    background: none;
+    color: blue;
+    text-decoration: underline;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .btn-button {
+    bottom: 20px; 
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: papayawhip; 
+    text-align: center;
+    text-decoration: none; 
+    font-size: 16px; 
+    border-radius: 5px;  
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+#login-form{
+    display: block;
+    text-align: left;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+@media (min-width: 44rem) {
+    .sections {
+        display: grid;             
+        justify-content: center;   
+        align-items: center; 
+        grid-template-columns: repeat(12, 1fr); 
+        grid-template-rows: 1fr;   
+        font-size: 16px; 
+    }
+
+    section {
+        grid-column: span 4;
+        height: 100%;
+        position: relative;
+        display: block; 
+        text-align: left;
+    }
+
+    .sections-another {
+        display: grid;             
+        justify-content: center;   
+        align-items: center; 
+        grid-template-columns: repeat(12, 1fr); 
+        grid-template-rows: 1fr;   
+        font-size: 16px; 
+
+    }
+
+    section {
+        grid-column: span 4;
+        height: 100%;
+        position: relative;
+        display: block; 
+        text-align: left;
+        margin: 0.5rem;
+
+    }
+    .section-one{
+        grid-column: span 4;
+    }
+    
+    .section-two{
+        grid-column: span 4;
+    }
+    
+    .section-three{
+        grid-column: span 4;
+    }
+    
+    .section-four{
+        grid-column: span 4;
+    }
+    
+    .section-five{
+        grid-column: span 4;
+    }
+    
+    .section-six{
+        grid-column: span 4;
+    }
+
+    .subscribe-button{
+        bottom: 20px; 
+        position: absolute;  
+        display: inline-block; 
+        padding: 10px 20px; 
+        background-color: papayawhip; 
+        text-align: center;
+        text-decoration: none; 
+        font-size: 16px; 
+        border-radius: 5px;  
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);         
+    }
+
+    .footer-link{
+        display: flex; 
+        flex-direction: vertical;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .mobile-menu:hover .menu {
+        display: block;
+      }
+
+    .mobile-menu:hover {
+        width: 150px;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: vertical;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    nav ul button{
+        display: inline-block; 
+        padding: 10px 20px; 
+        background-color: papayawhip; 
+        text-align: center;
+        text-decoration: none; 
+        font-size: 16px; 
+        border-radius: 5px; 
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+} 
+
+@media (max-width: 44rem) {
+    
+    
+    .mobile-menu {
+        display: block;
+    }
+    .menu button{
+        display: inline-block; 
+        padding: 10px 20px; 
+        background-color: papayawhip; 
+        text-align: center;
+        text-decoration: none; 
+        font-size: 16px; 
+        border-radius: 5px; 
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        
+    }
+    
+   
+}
+
+.page-image {
+    width: 100%;                
+    height: 30%;               
+}
